@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MusicPlayer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Category name for the Baroque period [CHAR LIMIT=20] -->
+    <string name="category_baroque">Baroque</string>
+
+    <!-- Category name for the Classical period [CHAR LIMIT=20] -->
+    <string name="category_classical">Classical</string>
+
+    <!-- Category name for the Romantic period [CHAR LIMIT=20] -->
+    <string name="category_romantic">Romantic</string>
+
+    <!-- Category name for the Modern period [CHAR LIMIT=20] -->
+    <string name="category_modern">Modern</string>
+</resources>

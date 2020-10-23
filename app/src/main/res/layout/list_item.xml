@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:background="@color/background"
+    android:minHeight="@dimen/list_item_height">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height" />
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        style="@style/ContainerStyle">
+
+
+        <TextView
+            android:id="@+id/piece_text_view"
+            style="@style/PieceStyle"
+            tools:text="Canon in D" />
+
+        <TextView
+            android:id="@+id/composer_text_view"
+            style="@style/ComposerStyle"
+            tools:text="Johann Pachelbel" />
+    </LinearLayout>
+</RelativeLayout>

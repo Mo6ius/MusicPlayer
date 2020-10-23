@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicplayer.MainActivity">
+
+    <!-- Baroque category -->
+    <FrameLayout style="@style/FrameStyle">
+
+        <TextView
+            android:id="@+id/baroque"
+            style="@style/CategoryStyle"
+            android:text="@string/category_baroque" />
+    </FrameLayout>
+
+    <View style="@style/LineStyle" />
+
+    <!-- Classical category -->
+    <FrameLayout style="@style/FrameStyle">
+
+        <TextView
+            android:id="@+id/classical"
+            style="@style/CategoryStyle"
+            android:text="@string/category_classical" />
+    </FrameLayout>
+
+    <View style="@style/LineStyle" />
+
+    <!-- Romantic category -->
+    <FrameLayout style="@style/FrameStyle">
+
+        <TextView
+            android:id="@+id/romantic"
+            style="@style/CategoryStyle"
+            android:text="@string/category_romantic" />
+    </FrameLayout>
+
+    <View style="@style/LineStyle" />
+
+
+    <!-- Modern category -->
+    <FrameLayout style="@style/FrameStyle">
+
+        <TextView
+            android:id="@+id/modern"
+            style="@style/CategoryStyle"
+            android:text="@string/category_modern" />
+    </FrameLayout>
+
+</LinearLayout>
